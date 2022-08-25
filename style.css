@@ -1,0 +1,87 @@
+body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+span {
+    color: #656293;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+button {
+    margin: 0;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 640px;
+    margin: auto;
+}
+
+.wrapper-header {
+    background-image: url("images/wing-airplane-with-city-background1.png");
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 165px 0 165px;
+    align-items: center;
+}
+
+.button-header {
+    width: 95px;
+    height: 30px;
+    background: #656293;
+    border-radius: 5px;
+    color: white;
+}
+    
+.navigation {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 20px;
+}
+
+.registration {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    align-items: center;
+}
+
+.enjoy {
+    padding: 190px 890px 340px 165px;
+    width: 590px;
+}
+
+.wing {
+    position: absolute;
+    top: 140px;
+    left: 1150px;
+    border-radius: 120px;
+}
+
+.window {
+    position: absolute;
+    top: 140px;
+    left: 1150px;
+    z-index: 1;
+}

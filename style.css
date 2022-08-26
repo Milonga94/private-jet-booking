@@ -17,7 +17,7 @@ span {
 a {
     text-decoration: none;
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 button {
@@ -25,18 +25,17 @@ button {
     outline: none;
     border: none;
     cursor: pointer;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .container {
     max-width: 1440px;
     width: 100%;
-    height: 640px;
     margin: auto;
 }
 
 .wrapper-header {
-    background-image: url("images/wing-airplane-with-city-background1.png");
+    background-image: url("images/background-header.png");
 }
 
 .header {
@@ -51,37 +50,40 @@ button {
     height: 30px;
     background: #656293;
     border-radius: 5px;
-    color: white;
+    color: #ffffff;
 }
     
 .navigation {
-    display: grid;
-    grid-template-columns: repeat(6, auto);
-    gap: 20px;
-}
-
-.registration {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
+    display: flex;
     gap: 20px;
     align-items: center;
 }
 
+.registration {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.wrapper-enjoy-resrved{
+    position: relative;
+}
+
 .enjoy {
-    padding: 190px 890px 340px 165px;
+    padding: 190px 690px 225px 165px;
     width: 590px;
 }
 
 .wing {
     position: absolute;
-    top: 140px;
-    left: 1150px;
+    top: 50px;
+    right: 155px;
     border-radius: 120px;
 }
 
 .window {
     position: absolute;
-    top: 140px;
-    left: 1150px;
+    top: 50px;
+    right: 155px;
     z-index: 1;
 }

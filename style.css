@@ -70,20 +70,12 @@ button {
 }
 
 .enjoy {
-    padding: 190px 690px 225px 165px;
+    padding: 190px 0 225px 165px;
     width: 590px;
-}
-
-.wing {
-    position: absolute;
-    top: 50px;
-    right: 155px;
-    border-radius: 120px;
 }
 
 .window {
     position: absolute;
     top: 50px;
     right: 155px;
-    z-index: 1;
 }

@@ -1,1 +1,1 @@
-console.log('ты пидр')
+console.log('')

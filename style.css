@@ -5,19 +5,28 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 66px;
     margin-bottom: 50px;
+    font-family: "Roboto", sans-serif;
 }
 
-span {
-    color: #656293;
-    text-transform: uppercase;
+h2 {
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
 }
+
+h3 {
+    font-size: 24px;
+    margin: 0 0 14px 0;
+}
+
 
 a {
     text-decoration: none;
     color: black;
-    font-weight: bold;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 button {
@@ -28,14 +37,21 @@ button {
     font-weight: bold;
 }
 
+p {
+    margin: 0;
+}
+
 .container {
     max-width: 1440px;
     width: 100%;
     margin: auto;
+    position: relative;
 }
 
 .wrapper-header {
     background-image: url("images/background-header.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {
@@ -45,6 +61,11 @@ button {
     align-items: center;
 }
 
+.span-h1 {
+    color: #656293;
+    text-transform: uppercase;
+}
+
 .button-header {
     width: 95px;
     height: 30px;
@@ -52,7 +73,20 @@ button {
     border-radius: 5px;
     color: #ffffff;
 }
-    
+
+.button-book-flights {
+    width: 234px;
+    height: 80px;
+    background: #656293;
+    border-radius: 5px;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    font-size: 18px;
+}
+
 .navigation {
     display: flex;
     gap: 20px;
@@ -65,7 +99,7 @@ button {
     align-items: center;
 }
 
-.wrapper-enjoy-resrved{
+.wrapper-enjoy-resrved {
     position: relative;
 }
 
@@ -78,4 +112,164 @@ button {
     position: absolute;
     top: 50px;
     right: 155px;
+}
+
+.input-from,
+.input-to {
+    display: grid;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(21, 21, 21, 0.6);
+    border-radius: 10px;
+}
+
+.date {
+    display: flex;
+    border: 1px;
+    border-style: solid;
+    border-color: rgba(21, 21, 21, 0.6);
+    border-radius: 10px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 16px;
+
+}
+
+.range-wrapper {
+    display: flex;
+}
+
+.form {
+    width: 1110px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 34px 28px;
+    box-sizing: border-box;
+    box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+    margin: -140px auto 0;
+}
+
+.select-form {
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid transparent;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+.label-form {
+    color: rgba(21, 21, 21, 0.6);
+}
+
+.input-form {
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 4px 0;
+    width: 100%;
+    padding: 0;
+}
+
+.date-form {
+    margin: 4px 0;
+}
+
+.input-from,
+.input-to {
+    padding: 16px 20px;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+.date {
+    padding: 16px 20px;
+    min-width: 380px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date-input {
+    display: grid;
+}
+
+.div-span {
+    display: flex;
+    gap: 30px;
+}
+
+.input-span {
+    font-size: 14px;
+    color: rgba(21, 21, 21, 0.6);
+    white-space: nowrap;
+}
+
+.link-form {
+    text-decoration: underline;
+}
+
+.wrapper-private-jet {
+    background-color: transparent;
+    margin-top: 108px;
+}
+
+.button-form {
+    background-color: transparent;
+    margin: 0 6px;
+    padding: 0;
+    font-size: 14px;
+    color: rgba(21, 21, 21, 0.6);
+    font-weight: normal;
+}
+
+.background-images {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.wrapper-private-jet-charter {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.plane-images {
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+}
+
+.private-jet-charter {
+    padding: 205px 150px 188px 826px;
+    text-align: justify;
+}
+
+.wrapper-business-jet-chartet {
+    display: flex;
+    align-items: center;
+}
+
+.business-jet-charter-background-images {
+    display: flex;
+}
+
+.inside-the-plane {
+    align-self: center;
+    position: relative;
+    margin-right:-200px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.business-jet-charter{
+    padding:0 38px 0 200px;
+    text-align: justify;
 }

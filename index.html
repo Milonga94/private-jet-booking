@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,200&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <script type="text/javascript" src="script.js"></script>
     <title>Private Jet Booking</title>
 </head>
@@ -29,7 +34,7 @@
                 </div>
                 <div class="wrapper-enjoy-resrved">
                     <div class="enjoy">
-                        <h1>Enjoy <span>Reserved</span> Overhead Bin Space</h1>
+                        <h1>Enjoy <span class="span-h1">Reserved</span> Overhead Bin Space</h1>
                         <a class="link" href="ссылка">Explore Now <img src="images/arrow.svg"></a>
                     </div>
                     <div class="eluminator">
@@ -38,8 +43,104 @@
                 </div>
             </div>
         </div>
-
     </header>
     <main>
+        <section>
+            <div class="container">
+                <form action="#" method="post" class="form">
+                    <div class="flight-settings">
+                        <select class="select-form" name="round-trip">
+                            <option>Round Trip</option>
+                        </select>
+                        <img src="images/arrow-down.svg">
+                        <select class="select-form" name="flight-type">
+                            <option>Flight Type</option>
+                        </select>
+                        <img src="images/arrow-down.svg">
+                        <select class="select-form" name="person">
+                            <option>Person</option>
+                        </select>
+                        <img src="images/arrow-down.svg">
+                    </div>
+                    <div class="form-box">
+                        <div class="range-wrapper">
+                            <div class="input-from">
+                                <label class="label-form" for="from">FROM</label>
+                                <input class="input-form" type="text" value="LAX" id="from">
+                                <span class="input-span">LOS ANGELES INTL APRT, LOS ANGELES</span>
+                            </div>
+                            <button class="button-form"> <img src="images/arrows.svg"> </button>
+                            <div class="input-to">
+                                <label class="label-form" for="to">TO</label>
+                                <input class="input-form" type="text" value="MIA" id="to">
+                                <span class="input-span">MIAMI INTL, MIAMI</span>
+                            </div>
+                        </div>
+                        <div class="date">
+                            <div class="date-input">
+                                <label class="label-form" for="departure">DEPARTURE</label>
+                                <input class="date-form" type="date" id="departure" value="2018-07-22">
+                                <div class="div-span">
+                                    <button class="button-form">Prev</button>
+                                    <button class="button-form">Next</button>
+                                </div>
+                            </div>
+                            <div class="date-input">
+                                <label class="label-form" for="return">RETURN</label>
+                                <input class="date-form" type="date" id="return" value="2018-07-25">
+                                <div class="div-span">
+                                    <button class="button-form">Prev</button>
+                                    <button class="button-form">Next</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="ссылка" class="link link-form">Add Requirements</a>
+                    <button type="submit" class="button-book-flights">Book Flights <img
+                            src="images/arrow-right.svg"></button>
+                </form>
+            </div>
+        </section>
+        <section class="private-jet">
+            <div class="container">
+                <div class="wrapper-private-jet">
+                    <h2>Private Jet For Business & Leisure Purposes</h2>
+                </div>
+                <div class="wrapper-private-jet-charter">
+
+                    <img class="background-images" src="images/background-images.png">
+                    <img class="plane-images" src="images/plane.jpg">
+
+                    <div class="private-jet-charter">
+                        <h3>Private Jet Charter</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page
+                            when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                            normal
+                            distribution of letters, as opposed to using 'Content here, content here', making it look
+                            like
+                            readable English. Many desktop publishing packages and web page editors</p>
+                    </div>
+                </div>
+                <div class="wrapper-business-jet-chartet">
+                    <div class="business-jet-charter">
+                        <h3>Business Jet Charter</h3>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page
+                            when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                            normal
+                            distribution of letters, as opposed to using 'Content here, content here', making it look
+                            like
+                            readable English. Many desktop publishing packages and web page editors</p>
+                    </div>
+                    <div class="business-jet-charter-background-images">
+                        <img class="inside-the-plane" src="images/inside-the-plane.jpg" />
+                        <img class="background-images-right" src="images/background-images-right.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
+
+</html>

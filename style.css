@@ -21,6 +21,10 @@ h3 {
     margin: 0 0 14px 0;
 }
 
+h4 {
+    margin: 12px 0;
+}
+
 
 a {
     text-decoration: none;
@@ -264,12 +268,56 @@ p {
 .inside-the-plane {
     align-self: center;
     position: relative;
-    margin-right:-200px;
+    margin-right: -200px;
     border-radius: 20px;
     z-index: 1;
 }
 
-.business-jet-charter{
-    padding:0 38px 0 200px;
+.business-jet-charter {
+    padding: 0 38px 0 200px;
     text-align: justify;
+}
+
+.jet-performance-block {
+    display: grid;
+    grid-template-columns: 370px 300px 370px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.jet-performance{
+    margin: 84px 0 68px;
+}
+
+.luxury,
+.safety,
+.personal-schedule,
+.experinced {
+    width: 370px;
+    height: 268px;
+    display: grid;
+    justify-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 30px 84px rgba(19, 10, 46, 0.08), 0px 8px 32px rgba(19, 10, 46, 0.07), 0px 3px 14px rgba(19, 10, 46, 0.03), 0px 1px 3px rgba(19, 10, 46, 0.13);
+    border-radius: 12px;
+}
+
+.luxury .seat,
+.safety .web-browser,
+.personal-schedule .schedule,
+.experinced .captain {
+    margin-top: 40px;
+}
+
+.luxury p,
+.safety p,
+.personal-schedule p,
+.experinced p {
+    margin: 0 52px 52px 52px;
+    text-align: center;
+}
+
+.plane-img {
+    grid-row: span 2;
 }

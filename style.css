@@ -334,10 +334,11 @@ margin: 66px 0 70px;
 .lux-charters-block{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 30px;
 }
 
-figure{
+.figure-box {
 width: 255px;
 height: 251px;
 background: #FFFFFF;
@@ -349,7 +350,7 @@ justify-content: center;
 margin: 0;
 }
 
-figcaption{
+.figcaption-text {
     text-align: center;
 }
 .figcaption-img{

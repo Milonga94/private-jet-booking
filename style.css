@@ -426,7 +426,7 @@ ul {
 }
 
 .line {
-    width: 352px;
+    width: 100%;
     border: 1px dashed #A9A9AA;
     margin-bottom: 65px;
 }

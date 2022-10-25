@@ -468,3 +468,53 @@ ul {
 .price-list:hover .image path{
     fill:#FFFFFF;
 }
+
+.plane-large {
+    margin: 18px 270px 2px 410px;
+}
+
+.wrapper-footer{
+    background-color: #656293;
+}
+
+.logo-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-image{
+    margin: 50px 0 36px;
+}
+
+.line-flex{
+    display: flex;
+    justify-content: center;
+}
+.line-footer {
+    width: 1110px;
+    height: 1px; 
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between; 
+    margin: 18px 164px 0 166px;
+}
+
+.link-block{
+    margin-bottom: 20px;
+}
+
+.link, .policy {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400px;
+    font-size: 14px;
+}
+
+.link{
+    padding-right: 15px;
+}
+
+

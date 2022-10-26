@@ -470,7 +470,8 @@ ul {
 }
 
 .plane-large {
-    margin: 18px 270px 2px 410px;
+    display: block;
+    margin: 18px auto 2px;
 }
 
 .wrapper-footer{

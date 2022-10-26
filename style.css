@@ -468,3 +468,44 @@ ul {
 .price-list:hover .image path{
     fill:#FFFFFF;
 }
+
+.plane-large {
+    display: block;
+    margin: 18px auto 2px;
+}
+
+.wrapper-footer{
+    background-color: #656293;
+    padding: 50px 164px 20px 164px;
+}
+
+.logo-image{
+    display: block;
+    margin: 0 auto 36px;
+}
+
+.line-footer {
+    width: 1110px;
+    height: 1px; 
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: auto;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 18px;
+}
+
+.link, .policy {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.link{
+    padding-right: 15px;
+}
+
+
